@@ -20,12 +20,12 @@ require_once __TYPECHO_ROOT_DIR__ . '/var/Typecho/Common.php';
 // config db
 $db = new \Typecho\Db('Pdo_Mysql', 'typecho_');
 $db->addServer(array (
-  'host' => 'sql.freedb.tech',
-  'port' => 3306,
-  'user' => 'freedb_faiing',
-  'password' => 'FeM&w39R5TPmXUK',
+  'host' => 'containers-us-west-184.railway.app',
+  'port' => 7279,
+  'user' => 'root',
+  'password' => 'qol87IXdJ44jUv5iPuby',
   'charset' => 'utf8mb4',
-  'database' => 'freedb_faiing',
+  'database' => 'railway',
   'engine' => 'InnoDB',
 ), \Typecho\Db::READ | \Typecho\Db::WRITE);
 \Typecho\Db::set($db);
